@@ -1,4 +1,4 @@
-# LucidChart Document Style
+# LucidChart Document Style Chrome Extension
  Removes the Document Carousel from LucidChart Recent Documents and uses a flexbox instead. 
 
 # Installation
