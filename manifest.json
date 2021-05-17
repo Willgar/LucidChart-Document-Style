@@ -1,0 +1,22 @@
+{
+  "name": "Lucid Chart Document Carousel Removal",
+  "description": "Removes the carousel in lucidchart document section",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["http://*/*	"],
+      "js": ["popup.js"]
+    }
+  ],
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "/images/lucidchart_94941.png"
+    }
+  },
+  "icons": {
+    "32": "/images/get_started32.png"
+  }
+}
