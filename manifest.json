@@ -4,19 +4,14 @@
   "version": "0.1",
   "manifest_version": 3,
   "content_scripts": [
-    {
-      "matches": ["http://*/*	"],
-      "js": ["popup.js"]
-    }
-  ],
-  "permissions": ["storage", "activeTab", "scripting"],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "32": "/images/lucidchart_94941.png"
-    }
-  },
+   {
+     "matches": ["https://lucid.app/*"],
+     "js": ["flexbox.js"]
+   }
+ ],
   "icons": {
-    "32": "/images/get_started32.png"
+    "16": "/images/lucidchart_94941.png",
+    "32": "/images/lucidchart_94941.png",
+    "64": "/images/lucidchart_94941.png"
   }
 }
